@@ -1,0 +1,14 @@
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    grid-gap: 20px;
+    text-align: center;
+    margin: 25px;
+    .items{
+        a{
+        display:block;
+        text-decoration: none;
+        }
+    }
+}

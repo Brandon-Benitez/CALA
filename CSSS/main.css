@@ -1,0 +1,16 @@
+.container-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+  grid-gap: 20px;
+  text-align: center;
+  margin: 25px;
+}
+
+.container-items .items a {
+  display: block;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
